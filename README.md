@@ -89,12 +89,10 @@ To extract deep business insights, **17 specific business questions/queries** we
 
 **17. Traffic Conditions Exceeding Overall Average Time (SUBQUERY):**
 * **Question:** Which traffic conditions have an average delivery time greater than the overall average delivery time?
-* **Insight:** Jam conditions perform worst, exceeding the dataset global average (26.29 mins) by nearly 5 minutes per order.
-... 
-*(Add all your 17 exact questions here based on your Jupyter Notebook)*
+* **Insight:** Jam conditions perform worst, exceeding the dataset global average (26.29 mins) by nearly 5 minutes per order. 
 
 ## 📊 Power BI Dashboard
-An interactive Power BI dashboard was designed to visually track delivery performance metrics. 
+![Food Delivery Dashboard](Dashboard_Screenshot.png) 
 
 **Key Performance Indicators (KPIs):**
 * **Total Orders:** 45.584K
@@ -106,10 +104,6 @@ An interactive Power BI dashboard was designed to visually track delivery perfor
 * **Slicers:** City, Weather Conditions, Road Traffic Density, Vehicle Type, Order Type, Festival.
 * **Charts:** Average Delivery Time analyzed by Traffic, Vehicle, City, Festival, Weather, and Order Type.
 * **Trend Analysis:** Multiple Deliveries vs. Delivery Time (Line Chart).
-
-## 📸 Dashboard Screenshot
-![Food Delivery Dashboard](Dashboard_Screenshot.png)
-*(Note: Upload your screenshot image to GitHub and replace `Dashboard_Screenshot.png` with the actual file link)*
 
 ## 💡 Key Business Insights
 * Delivery time significantly increases during traffic congestion and adverse weather conditions.
@@ -134,6 +128,7 @@ An interactive Power BI dashboard was designed to visually track delivery perfor
 * `food_delivery_cleaned.csv`: The finalized clean dataset ready for analysis.
 * `Food_Delivery_Analysis.ipynb`: SQL queries and business logic execution.
 * `food_delivery_performance_dashboard.pbix`: The final Power BI interactive dashboard.
-
+* 'Dashboard_Screenshot.png': An image preview of the final Power BI dashboard.
+  
 ## 🏁 Conclusion
 This comprehensive analysis demonstrates how data-driven approaches can identify operational bottlenecks in food delivery systems. By leveraging Python, SQL, and Power BI, the project provides a clear roadmap for improving delivery efficiency and customer satisfaction.
